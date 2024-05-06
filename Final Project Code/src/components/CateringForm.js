@@ -164,7 +164,7 @@ function CateringForm() {
                     <div className='d-flex justify-content-center align-item-center'>
                         <div className='py-5 pb-5 text-center mt-5'>
                             <div className='mt-5'>
-                                <h3 className='h styleHeading'>Catering Form</h3>
+                                <h3 className='h styleHeading'>Volunteer Sign-Up</h3>
                             </div>
                         </div>
                     </div>
@@ -206,7 +206,7 @@ function CateringForm() {
                                     <div className='justify-content-center align-item-center'>
                                         <div className='mt-5'>
                                             <div>
-                                                <h2 className='styleHeadingForm' style={{ margin: '0' }}>Catering ordering request:</h2><hr class="separator separator--line" style={{ margin: '0' }} />
+                                                <h2 className='styleHeadingForm' style={{ margin: '0' }}>Volunteer Sign-Up:</h2><hr class="separator separator--line" style={{ margin: '0' }} />
                                             </div>
                                             <div className='mx-auto' style={{ paddingTop: 40 }}>
                                                 <p className='priPass'> Welcome to the JSS Spiritual Mission Volunteer Sign-Up Form! Join us in offering your time and skills to support our community. Fill out the form below to become a valued member of our volunteer team, dedicated to serving others with compassion and dedication.</p><br></br>
@@ -220,7 +220,7 @@ function CateringForm() {
                                     <div className='justify-content-center align-item-center'>
                                         <div className=''>
                                             <div>
-                                                <h4 className='styleHeadingForm' style={{ margin: '0' }}>JSS Spiritual Mission Catering Volunteer Form</h4>
+                                                <h4 className='styleHeadingForm' style={{ margin: '0' }}>JSS Spiritual Mission Volunteer Form</h4>
                                             </div>
                                             <hr class="separator separator--line" style={{ margin: '0' }} />
                                             <div className='container' style={{ paddingTop: 40 }}>
@@ -292,7 +292,7 @@ function CateringForm() {
                                                     </div>
                                                     <div className="col-lg-6  mx-auto ">
                                                         <div className="text-left">
-                                                            <p className='PersonalPass' style={{ margin: '0' }}>Catering Details</p><hr className='Personal Personal--line' style={{ margin: '0' }} />
+                                                            <p className='PersonalPass' style={{ margin: '0' }}>Volunteer Details</p><hr className='Personal Personal--line' style={{ margin: '0' }} />
                                                             <div className="text-center mt-3">
                                                                 <div className="text-center">
                                                                     <div className='text-left'>
