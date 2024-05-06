@@ -24,7 +24,7 @@ const Navbar = () => {
           </div>
           <div className={` ml-32 md:flex md:items-center ${isOpen ? 'block' : 'hidden'}`}>
             <Link to="/" className={`navtext mx-4 md:mx-8 navsection ${isActive('/') ? 'active' : ''}`}>POOJA REQUEST</Link>
-            <Link to="/CateringForm" className={`navtext mx-5 md:mx-8 navsection ${isActive('/CateringForm') ? 'active' : ''}`}>CATERING FORM</Link>
+            <Link to="/CateringForm" className={`navtext mx-5 md:mx-8 navsection ${isActive('/CateringForm') ? 'active' : ''}`}>VOLUNTEER SIGNUP FORM</Link>
             {/* Hide the logo on small screens */}
             <div className="hidden md:block md:mx-4">
               <div className="logo-container items-center border rounded-full bg-white logobox"></div>
