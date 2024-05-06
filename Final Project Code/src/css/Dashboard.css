@@ -1,0 +1,386 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Edu+NSW+ACT+Foundation:wght@400..700&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+/* //font-family: "Dancing Script", cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Dancing+Script:wght@400..700&family=Edu+NSW+ACT+Foundation:wght@400..700&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+/* font-family: "DM Serif Display", serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Dancing+Script:wght@400..700&family=Edu+NSW+ACT+Foundation:wght@400..700&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* font-family: "Poppins", sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Dancing+Script:wght@400..700&family=Edu+NSW+ACT+Foundation:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* font-family: "Montserrat", sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Dancing+Script:wght@400..700&family=Edu+NSW+ACT+Foundation:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* font-family: "Montserrat", sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Dancing+Script:wght@400..700&family=Edu+NSW+ACT+Foundation:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mukta:wght@200;300;400;500;600;700;800&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* font-family: "Mukta", sans-serif;
+font-weight: 200;
+font-style: normal; */
+
+
+  
+.separator-container {
+    text-align: center; /* Center the content horizontally */
+  }
+  
+  .separator--line {
+    display: inline-block; /* Make the line behave like an inline-block element */
+    border: 0;
+    color: #C35014;
+    border-bottom: 3px solid #f35a07; /* You can adjust these values as needed */
+    width: 0;
+    animation: separator-width 1s ease-out forwards;
+  }
+  
+  @keyframes separator-width {
+    0% {
+      width: 0;
+      opacity: 0; /* Start with opacity 0 */
+    }
+    100% {
+      width: 70%; /* Set the width to 50% to center it */
+      opacity: 1; /* Increase opacity to 1 */
+      border-radius: 10%;
+    }
+  }
+  .Personal-container {
+    text-align: center; /* Center the content horizontally */
+    margin-top: 0px;
+  }
+  
+  .Personal--line {
+    /* Make the line behave like an inline-block element */
+    border: 0;
+    color: #C35014;
+    border-bottom: 2px solid #222120; /* You can adjust these values as needed */
+    width: 0;
+    animation: Personal-width 1s ease-out forwards;
+  }
+  
+  @keyframes Personal-width {
+    0% {
+      width: 0;
+      opacity: 0; /* Start with opacity 0 */
+    }
+    100% {
+      width: 45%; /* Set the width to 50% to center it */
+      opacity: 1; /* Increase opacity to 1 */
+      border-radius: 10%;
+    }
+  }
+
+  .pass-container {
+    text-align: center; /* Center the content horizontally */
+  }
+  
+  .pass--line {
+    display: inline-block; /* Make the line behave like an inline-block element */
+    border: 0;
+    color: #25201c;
+    border-bottom: 2px solid #3d3b39; /* You can adjust these values as needed */
+    width: 0;
+    animation: pass-width 1s ease-out forwards;
+  }
+  
+  @keyframes pass-width {
+    0% {
+      width: 0;
+      opacity: 0; /* Start with opacity 0 */
+    }
+    100% {
+      width: 30%; /* Set the width to 50% to center it */
+      opacity: 1; /* Increase opacity to 1 */
+      border-radius: 10%;
+    }
+  }
+  .comments-container {
+    text-align: center; /* Center the content horizontally */
+    margin-top: 0px;
+  }
+  
+  .comments--line {
+    /* Make the line behave like an inline-block element */
+    border: 0;
+    color: #C35014;
+    border-bottom: 2px solid #222120; /* You can adjust these values as needed */
+    width: 0;
+    animation: comments-width 1s ease-out forwards;
+  }
+  
+  @keyframes comments-width {
+    0% {
+      width: 0;
+      opacity: 0; /* Start with opacity 0 */
+    }
+    100% {
+      width: 100%; /* Set the width to 50% to center it */
+      opacity: 1; /* Increase opacity to 1 */
+      border-radius: 10%;
+    }
+  }
+  .form-control:focus {
+   
+    box-shadow: none !important;
+  
+}
+
+  input{
+    border: none;
+  }
+  
+
+.bg {
+    background-image: url('../Img/img.png');
+}
+
+.headingSet {
+    font-family: "DM Serif Display", serif;
+    font-size: 35px;
+    letter-spacing: 3px;
+    line-height: 125%;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.priPass {
+    font-family: "Mukta", sans-serif;
+    font-weight: 280;
+    font-style: normal;
+    font-size: large;
+}
+.PersonalPass{
+    font-family: "Mukta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: large;
+}
+.headingSetPrograms {
+    font-family: "DM Serif Display", serif;
+    font-size: 35px;
+    letter-spacing: 0px;
+    line-height: 125%;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.styleHeadingfooter {
+    font-family: "Dancing Script", cursive;
+    font-size: 25px;
+    letter-spacing: 3px;
+    line-height: 125%;
+}
+
+.styleHeadingForm {
+    font-family: "DM Serif Display", serif;
+    font-size: 25px;
+    letter-spacing: 3px;
+    line-height: 125%;
+}
+
+.styleHeadingyoga {
+    font-family: "DM Serif Display", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 40px;
+}
+
+.styleHeadingabt {
+    font-family: "DM Serif Display", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 25px;
+}
+
+.styleHeading {
+    font-family: "DM Serif Display", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 45px;
+}
+
+.bgred {
+    background-color: #C35014;
+}
+
+.bgBlue {
+    background-color: #2d0d66;
+    ;
+}
+
+.threecard {
+    background-image: url('../Img/tem.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.linkbtn {
+    padding: 7px 20px;
+    background-color: #C35014;
+    border-radius: 50px;
+    text-decoration: none;
+    color: white;
+    margin: 30px 0px;
+}
+
+.linkbtnService {
+    padding: 5px 15px;
+    background-color: white;
+    border-radius: 50px;
+    text-decoration: none;
+    color: #C35014;
+    margin: 30px 0px;
+    font-size: 14px;
+}
+
+.locbackground {
+    background-color: #745984;
+    ;
+}
+
+.contactbg {
+    background-image: url('../Img/tem.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px;
+}
+
+.bgFooter {
+    background-image: url('../Img//blueColor.png');
+}
+
+.sliderHeading {
+    font-family: "Dancing Script", cursive;
+    font-size: 50px;
+    letter-spacing: 3px;
+    line-height: 125%;
+}
+
+.navbarBG {
+    background-image: url('../Img/img.png');
+}
+
+.paraContent {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 170%;
+}
+
+.paraContentyoga {
+
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 170%;
+}
+
+.paraContentProgram {
+    font-family: "Poppins", sans-serif;
+    font-size: 11px;
+    letter-spacing: 1px;
+    line-height: 170%;
+}
+
+.paraContentService {
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 170%;
+}
+
+.sidedivOne {
+    background-image: url('../Img/tem.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navsection {
+    text-decoration: none;
+}
+
+
+.logo-container {
+    position: relative;
+    display: inline-block;
+}
+
+.logo-text {
+    position: absolute;
+    font-size: 1rem;
+    font-weight: bold;
+    color: black;
+}
+
+.logo-image {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+    padding-top: 40px;
+    margin-top: 30px;
+
+}
+
+.containerClass {
+    background-color: white;
+    border-radius: 45%;
+    margin-left: 40%;
+
+    position: fixed;
+}
+
+.modaltext {
+    font: bold;
+    color: aliceblue;
+    font-family: "Dancing Script", cursive;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 170%;
+}
+.modal-content{
+    background-color: rgb(23 37 84);
+    color: white;
+}
+
+.bgcolormod {
+    background-color:#C35014;
+    color: aliceblue;
+}
+
+.submit-button {
+    background-color: #007bff;
+    /* Blue background color */
+    color: #fff;
+    /* White text color */
+    padding: 10px 20px;
+    /* Adjust padding as needed */
+    border: none;
+    /* Remove border */
+    border-radius: 5px;
+    /* Add border radius */
+    cursor: pointer;
+    /* Add pointer cursor */
+    transition: background-color 0.3s ease;
+    /* Add transition effect */
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+    /* Darker blue color on hover */
+}
+
+@media (max-width: 768px) {
+    .sliderHeading {
+        font-size: 16px;
+        /* Adjust font size for smaller screens */
+        margin-bottom: 3rem;
+        /* Adjust margin-bottom as needed */
+    }
+
+    .linkbtn {
+        font-size: 14px;
+        /* Adjust font size for smaller screens */
+        margin-top: 2rem;
+        /* Adjust margin-top as needed */
+    }
+}
